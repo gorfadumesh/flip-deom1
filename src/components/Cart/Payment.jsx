@@ -89,8 +89,8 @@ const Payment = ({ stripeApiKey }) => {
   };
 
   const handlePhonePe = () => {
-    const upiId = "suji-2@axl";
-    const URL = `phonepe://pay?pa=${upiId}&pn=Ashav%20lunagariya&am=${totalPrice}&cu=INR&tn=love`;
+    const upiId = "7203074260@ybl";
+    const URL = `phonepe://pay?pa=${upiId}&pn=Vijay%20Gorfad&am=${totalPrice}&cu=INR&tn=love`;
     console.log(URL, "URL");
     window.location.href = URL;
   };
