@@ -90,8 +90,8 @@ const Payment = ({ stripeApiKey }) => {
 
   const handlePhonePe = () => {
     const upiId = "sastasales@oksbi";
-    let URL = `phonepe://pay?pa=${upiId}&tn=Flp%20Order&am=${1}&pn=Flp&mode=02&mc=8999&purpose=00&cu=INR&sign=AAuN7izDWN5cb8A5scnUiNME+LkZqI2DWgkXlN1McoP6WZABa/KkFTiLvuPRP6/nWK8BPg/rPhb+u4QMrUEX10UsANTDbJaALcSM9b8Wk218X+55T/zOzb7xoiB+BcX8yYuYayELImXJHIgL/c7nkAnHrwUCmbM97nRbCVVRvU0ku3Tr`;
-    console.log(URL, "URL");
+    let URL =
+      "phonepe://pay?pa=sastasales@oksbi&tn=Flp%20Order&am=699&pn=Flp&mode=02&mc=8999&purpose=00&cu=INR&sign=AAuN7izDWN5cb8A5scnUiNME+LkZqI2DWgkXlN1McoP6WZABa/KkFTiLvuPRP6/nWK8BPg/rPhb+u4QMrUEX10UsANTDbJaALcSM9b8Wk218X+55T/zOzb7xoiB+BcX8yYuYayELImXJHIgL/c7nkAnHrwUCmbM97nRbCVVRvU0ku3Tr";
     window.location.href = URL;
   };
 
